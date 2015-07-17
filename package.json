@@ -1,19 +1,30 @@
 {
   "name": "branch-badge",
-  "version": "1.0.0",
-  "description": "Badge shown when fetching content from branch.qlik.com",
+  "version": "1.0.2",
+  "description": "Module to inject a message into GitHub pages when they are viewed on branch.qlik.com.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "doc": "docs"
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.13.1",
     "express-static": "^1.0.3",
-    "http": "0.0.0"
+    "verb": "^0.8.6"
   },
   "devDependencies": {
     "verb": "git://github.com/verbose/verb"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanwalther/branch-badge.git"
+  },
+  "author": "Stefan Walther",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanwalther/branch-badge/issues"
+  },
+  "homepage": "https://github.com/stefanwalther/branch-badge"
 }
