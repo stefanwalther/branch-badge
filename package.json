@@ -1,0 +1,19 @@
+{
+  "name": "branch-badge",
+  "version": "1.0.0",
+  "description": "Badge shown when fetching content from branch.qlik.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.1",
+    "express-static": "^1.0.3",
+    "http": "0.0.0"
+  },
+  "devDependencies": {
+    "verb": "git://github.com/verbose/verb"
+  }
+}
