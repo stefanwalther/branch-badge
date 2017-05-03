@@ -1,5 +1,7 @@
 # branch-badge
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stefanwalther/branch-badge.svg)](https://greenkeeper.io/)
+
 > Badge to be included in README.md files on GitHub to be shown only to users viewing the content on branch.qlik.com
 
 ## Author
